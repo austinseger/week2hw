@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio showcasing Austin Seger's work as a web developer with skills in coding, hardware problem solving, and JavaScript.">
+    <title>Austin Seger - Web Developer Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Austin Seger</h1>
+    </header>
+
+    
+    <section id="about" class="hero">
+        <img src="assets/images/profilepic.jpg" alt="Austin Seger's photo" class="profile-img">
+        <h2>About Me</h2>
+        <p>
+            I am a web developer with a strong passion for problem-solving and technology. With a background in both hardware and software, I enjoy tackling complex challenges. 
+            I specialize in JavaScript, building custom websites, and troubleshooting hardware issues. I'm always looking for innovative solutions to improve performance and user experience.
+        </p>
+        <div class="skills-gallery">
+            <div class="skill-item">
+                <img src="assets/images/pcpcpc.webp" alt="PC setup" class="skill-img">
+                <p>Hardware Expertise: Building and troubleshooting custom computers.</p>
+            </div>
+            <div class="skill-item">
+                <img src="assets/images/problem-solving-concept-technique.webp" alt="Problem-solving concept" class="skill-img">
+                <p>Problem Solving: Breaking down complex issues and finding solutions.</p>
+            </div>
+            <div class="skill-item">
+                <img src="assets/images/java.png" alt="JavaScript code" class="skill-img">
+                <p>JavaScript Coding: Writing efficient code to solve problems.</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="work" class="portfolio">
+        <h2>My Work</h2>
+        <div class="work-item featured">
+            <a href="https://link-to-deployed-project1.com" target="_blank">
+                <img src="assets/images/project1.jpg" alt="Screenshot of Project 1">
+            </a>
+            <h3>Project 1: Title of the First Project</h3>
+        </div>
+        <div class="work-item">
+            <a href="https://link-to-deployed-project2.com" target="_blank">
+                <img src="assets/images/project2.jpg" alt="Screenshot of Project 2">
+            </a>
+            <h3>Project 2: Title of the Second Project</h3>
+        </div>
+        
+    </section>
+
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="mailto:your-email@example.com" method="POST" enctype="text/plain">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Austin Seger</p>
+    </footer>
+</body>
+</html>
